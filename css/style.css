@@ -32,7 +32,7 @@ header {
 
 footer {
   background-color: var(--secondary-background-color);
-  font-size: var(secondary-font-size);
+  font-size: var(--secondary-font-size);
 }
 
 h1 {
