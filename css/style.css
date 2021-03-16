@@ -1,10 +1,10 @@
 :root {
-  --primary-background-color: #EFC9AF;
+  --primary-background-color: #efc9af;
   --secondary-background-color: #5cc4f4;
-  --text-color: #104C91;
-  --active-link-color: #000000;
+  --text-color: #104c91;
+  --active-link-color: #000;
   --button-background-color: #357b70;
-  --button-text-color: #FFF;
+  --button-text-color: #fff;
   --secondary-button-background-color: #e0b354;
   --secondary-button-text-color: #2b2b2b;
   --primary-font-size: 20px;
@@ -55,7 +55,8 @@ a:visited {
     color: #5848cf;
 }
 */
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   cursor: pointer;
   opacity: 0.6;
@@ -83,7 +84,8 @@ a.link__animation:hover {
   animation: link-shake var(--animation-time);
 }
 
-.button, button {
+.button,
+button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -114,7 +116,6 @@ button:focus,
   max-width: 250px;
   float: left;
   margin-right: 40px;
-  /* border-radius: 50%; would round the borders of the picture in case I used a square picture*/
 }
 
 .page-header {
@@ -152,7 +153,7 @@ button:focus,
 .navigation-list li {
   display: inline-block;
   margin-left: 30px;
-  margin-top: 30px
+  margin-top: 30px;
 }
 
 .navigation-list__item--active {
@@ -207,7 +208,7 @@ button:focus,
 
 @keyframes link-shake {
   0% {
-    transform: translateX(0)
+    transform: translateX(0);
   }
 
   25% {
@@ -219,7 +220,7 @@ button:focus,
   }
 
   100% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
 
@@ -231,7 +232,7 @@ button:focus,
   padding: 20px;
 }
 
-/*end of fallback method*/
+/* end of fallback method */
 @supports (display:grid) {
   .grid {
     display: grid;
@@ -247,10 +248,8 @@ button:focus,
   }
 
   .grid__item:last-child {
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column: 3 / 3;
+    grid-row: 2 / 3;
   }
 }
 
