@@ -1,7 +1,7 @@
 :root {
   --primary-background-color: #f2f2f2;
   --secondary-background-color: #5cc4f4;
-  --text-color: #4A4238;
+  --text-color: #4a4238;
   --active-link-color: #000;
   --button-background-color: #004777;
   --button-text-color: #fff;
@@ -16,7 +16,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -70,9 +71,11 @@ a:focus {
 a:active {
   color: var(--active-link-color);
 }
+
 a:visited {
-  color: var(--text-color)
+  color: var(--text-color);
 }
+
 a.button__link:hover {
   text-decoration: none;
   animation: link-shake var(--animation-time);
@@ -104,9 +107,11 @@ button {
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: opacity 0.5s;
 }
+
 #button__link__color {
-    color: var(--button-text-color);
+  color: var(--button-text-color);
 }
+
 button:hover,
 button:focus,
 .button:hover,
@@ -284,7 +289,8 @@ button:focus,
     font-size: 22px;
   }
 }
+
 .main__layout {
-  padding: 10px 25px 10px 25px;
+  padding: 10px 25px;
   flex: 1 0 auto;
 }
