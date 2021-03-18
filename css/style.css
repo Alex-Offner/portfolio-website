@@ -128,6 +128,11 @@ button:focus,
   opacity: 0.8;
 }
 
+.main__layout {
+  padding: 10px 25px;
+  flex: 1 0 auto;
+}
+
 .profile {
   max-width: 1000px;
   margin: 0 auto;
@@ -145,6 +150,11 @@ button:focus,
   flex-direction: row;
   width: 100%;
   padding: 20px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
 }
 
 .page-header__item {
@@ -275,6 +285,11 @@ button:focus,
   .grid {
     grid-template-columns: 1fr;
   }
+
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
@@ -296,9 +311,4 @@ button:focus,
   h1 {
     font-size: 22px;
   }
-}
-
-.main__layout {
-  padding: 10px 25px;
-  flex: 1 0 auto;
 }
