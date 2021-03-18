@@ -65,16 +65,15 @@ a {
   transition: opacity 0.2s;
 }
 
-/* temporarily deactived until page is uploaded
-a:visited {
-    color: #5848cf;
-}
-*/
 a:hover,
 a:focus {
   text-decoration: none;
   cursor: pointer;
   opacity: 0.6;
+}
+
+a:link {
+  color: #4a4238;
 }
 
 a:active {
