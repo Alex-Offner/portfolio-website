@@ -110,7 +110,7 @@ button {
   background-color: var(--button-background-color);
   color: var(--button-text-color);
   text-decoration: none;
-  padding: 1.3%;
+  padding: 1%;
   border-radius: 5%;
   border-bottom: 3px solid rgba(0, 0, 0, 0.3);
   transition: opacity 0.5s;
