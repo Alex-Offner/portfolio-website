@@ -206,8 +206,8 @@ button:focus {
 
 .page-header__item {
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 50%;
-  flex: 0 1 50%;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
 }
 
 .page-header__item:last-child {
