@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
@@ -54,25 +54,44 @@
       Skype: <a href="skype:Iconoclast17">Iconoclast17</a><br>
       <a href="mailto:alex.offner@googlemail.com?subject=You%20are%20hired">Alex.Offner@googlemail.com</a><br>
     </div><br>
-    <div>
+    <div class="wrapper">
       <h1>Contact me here</h1>
       <form action="#" method="post" id="contact-form">
 
-        <label class="standard-label" for="contact-name">Your name: </label>
-        <input type="text" id="contact-name" required>
+        <div>
+          <label class="standard-label" for="contact-name">Your name: </label>
+          <br>
+          <input type="text" id="contact-name" class="input-field" required>
+        </div>
 
-        <label class="standard-label" for="contact-email">E-mail: </label>
-        <input type="email" id="contact-email" required>
-        <br>
+        <div>
+          <label class="standard-label" for="contact-email">E-mail: </label>
+          <br>
+          <input type="email" id="contact-email" class="input-field" required>
+        </div>
 
-        <label class="standard-label" for="contact-tel">Telephone: </label>
-        <input type="tel" id="contact-tel">
+        <div>
+          <label class="standard-label" for="contact-tel">Telephone: </label>
+          <br>
+          <input type="tel" id="contact-tel" class="input-field">
+        </div>
 
-        <br>
-        <label class="standard-label" for="contact-message">Message: </label>
-        <textarea required maxlength="240" id="contact-message"></textarea>
+        <div>
+          <label class="standard-label" for="contact-topic">Topic: </label>
+          <br>
+          <input type="topic" id="contact-topic" class="input-field">
+        </div>
 
-        <button type="button" class="button">Send message</button>
+        <div>
+          <label class="standard-label" for="contact-message">Message: </label>
+          <br>
+          <textarea required maxlength="240" id="contact-message" class="input-field"></textarea>
+        </div>
+
+        <div>
+          <br>
+          <button type="button" class="button">Send message</button>
+        </div>
       </form>
     </div>
     <br>
@@ -88,6 +107,7 @@
       <!--placeholder link-->
     </div>
   </footer>
+  <script src="js/contact-script.js"></script>
   <!-- <script src="js/tota11y.min.js"></script> tool to check accessibility -->
 </body>
 
