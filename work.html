@@ -1,119 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--character set to tell browser which characters are used -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- sets the width of the page to follow the screen width and set inital zoom level -->
+    <title>Portfolio of Alex Offner - Work</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <!--character set to tell browser which characters are used -->
-  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- sets the width of the page to follow the screen width and set inital zoom level -->
-  <title>Portfolio of Alex Offner - Work</title>
-  <link rel="shortcut icon" href="./img/favicon.ico">
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.production.css">
-</head>
-
-<body>
-  <header>
-    <div class='page-header'>
-      <a href='index.html' class='page-header__item'><img src="img/logo.svg" alt="Personal logo of Alex Offner, a text logo consisting of the name with a blue coloured background" role="link" class='img__shake logo'></a>
-      <nav class='navigation-list page-header__item'>
-        <ul role="menubar" class="navigation-list">
-          <li role="presentation">
-            <div class='link__shake'>
-              <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
-            </div>
-          </li>
-          <li role="presentation">
-            <div class='link__shake'>
-              <a href="about.html" role="menuitem" class="navigation-list__item">This is me</a>
-            </div>
-          </li>
-          <li role="presentation">
-            <div class='link__shake'>
-              <a href='work.html' role="menuitem" class="navigation-list__item navigation-list__item--active">Work</a>
-            </div>
-          </li>
-          <li role="presentation">
-            <div class='link__shake'>
-              <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
-            </div>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <section class="main__layout">
-    <h1>My work</h1>
-    <div class="grid">
-      <div class="grid__item">
-        <h2>Portfolio of Alexander Offner</h2>
-        <p>
-          For this project I was responisble for the frontend. I also created the HTML and CSS layout
-        </p>
-        <div class='link__shake'>
-          <a href="https://github.com/Iconoclast17/portfolio-webside">Have a look at the project on GitHub</a>
+  <body>
+    <header>
+      <div class="page-header">
+        <a href="index.html" class="page-header__item"
+          ><img
+            src="img/logo.svg"
+            alt="Personal logo of Alex Offner, a text logo consisting of the name with a blue coloured background"
+            role="link"
+            class="img__shake logo"
+        /></a>
+        <nav class="navigation-list page-header__item">
+          <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+              <div class="link__shake">
+                <a
+                  href="index.html"
+                  role="menuitem"
+                  class="navigation-list__item"
+                  >Home</a
+                >
+              </div>
+            </li>
+            <li role="presentation">
+              <div class="link__shake">
+                <a
+                  href="about.html"
+                  role="menuitem"
+                  class="navigation-list__item"
+                  >This is me</a
+                >
+              </div>
+            </li>
+            <li role="presentation">
+              <div class="link__shake">
+                <a
+                  href="work.html"
+                  role="menuitem"
+                  class="navigation-list__item navigation-list__item--active"
+                  >Work</a
+                >
+              </div>
+            </li>
+            <li role="presentation">
+              <div class="link__shake">
+                <a
+                  href="contact.html"
+                  role="menuitem"
+                  class="navigation-list__item"
+                  >Contact</a
+                >
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="main__layout">
+      <h1>My work</h1>
+      <div class="grid">
+        <div class="grid__item">
+          <h2>Portfolio of Alexander Offner</h2>
+          <p>
+            For this project I was responisble for the frontend. I also created
+            the HTML and CSS layout.
+          </p>
+          <div class="link__shake center">
+            <a
+              href="https://github.com/Alex-Offner/portfolio-website"
+              target="_blank"
+              >Have a look at the project on GitHub</a
+            >
+          </div>
+          <p class="center">or</p>
+          <div class="link__shake center">
+            <a
+              href="https://alex-offner.github.io/portfolio-website/"
+              target="_blank"
+              >Have a look at the live, hosted version on GitHub pages</a
+            >
+          </div>
+        </div>
+        <div class="grid__item">
+          <h2>Pokédex App</h2>
+          <p>
+            I created a small pokédex app with an external API to show a list of
+            pokemon. Using iQuery and bootstrap for the design, a modal with
+            information of the pokemon will appear when clicking on it. The
+            search bar will help sort the pokemon by name. I was responsible the
+            basic HTML, CSS and JavaScript code, but used external polyfills.
+          </p>
+          <div class="link__shake center">
+            <a href="https://github.com/Alex-Offner/pokedex-app" target="_blank"
+              >Have a look at the project on GitHub</a
+            >
+          </div>
+          <p class="center">or</p>
+          <div class="link__shake center">
+            <a href="https://alex-offner.github.io/pokedex-app/" target="_blank"
+              >Have a look at the live, hosted version on GitHub pages</a
+            >
+          </div>
+        </div>
+        <div class="grid__item">
+          <h2>Tabletop role-playing simulator</h2>
+          <p>
+            For this project I was responisble for the frontend. I also created
+            the HTML and CSS layout
+          </p>
+          <div class="link__shake">
+            <a href="#">Have a look at the project on GitHub</a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <h2>Mobile Web App</h2>
+          <p>
+            For this project I was responisble for the frontend. I also created
+            the HTML and CSS layout
+          </p>
+          <div class="link__shake">
+            <a href="#">Have a look at the project on GitHub</a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <h2>Running tracker</h2>
+          <p>
+            For this project I was responisble for the frontend. I also created
+            the HTML and CSS layout
+          </p>
+          <div class="link__shake">
+            <a href="#">Have a look at the project on GitHub</a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <h2>Future unnamed project</h2>
+          <p>
+            For this project I was responisble for the frontend. I also created
+            the HTML and CSS layout
+          </p>
+          <div class="link__shake">
+            <a href="#">Have a look at the project on GitHub</a>
+          </div>
         </div>
       </div>
-      <div class="grid__item">
-        <h2>Dice rolling tool</h2>
-        <p>
-          For this project I was responisble for the frontend. I also created the HTML and CSS layout
-        </p>
-        <div class='link__shake'>
-          <a href="#">Have a look at the project on GitHub</a>
-        </div>
+    </section>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a
+          href="https://github.com/Alex-Offner/portfolio-website"
+          target="_blank"
+          ><img src="img/github-logo.svg" alt="Github logo" class="img__shake"
+        /></a>
+        <!--placeholder link-->
+        <a href="#" target="_blank"
+          ><img src="img/twitter-logo.svg" alt="twitter logo" class="img__shake"
+        /></a>
+        <!--placeholder link-->
+        <a
+          href="https://www.linkedin.com/in/alexander-offner-953204208/"
+          target="_blank"
+          ><img
+            src="img/linkedin-logo.svg"
+            alt="LinkedIn logo"
+            class="img__shake"
+        /></a>
+        <!--placeholder link-->
       </div>
-      <div class="grid__item">
-        <h2>Tabletop role-playing simulator </h2>
-        <p>
-          For this project I was responisble for the frontend. I also created the HTML and CSS layout
-        </p>
-        <div class='link__shake'>
-          <a href="#">Have a look at the project on GitHub</a>
-        </div>
-      </div>
-      <div class="grid__item">
-        <h2>Mobile Web App</h2>
-        <p>
-          For this project I was responisble for the frontend. I also created the HTML and CSS layout
-        </p>
-        <div class='link__shake'>
-          <a href="#">Have a look at the project on GitHub</a>
-        </div>
-      </div>
-      <div class="grid__item">
-        <h2>Running tracker</h2>
-        <p>
-          For this project I was responisble for the frontend. I also created the HTML and CSS layout
-        </p>
-        <div class='link__shake'>
-          <a href="#">Have a look at the project on GitHub</a>
-        </div>
-      </div>
-      <div class="grid__item">
-        <h2>Future unnamed project</h2>
-        <p>
-          For this project I was responisble for the frontend. I also created the HTML and CSS layout
-        </p>
-        <div class='link__shake'>
-          <a href="#">Have a look at the project on GitHub</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer class='page-footer'>
-    <p>Find me on</p>
-    <div class='social-media'>
-      <a href="https://github.com/Alex-Offner/portfolio-website" target="_blank"><img src="img/github-logo.svg" alt="Github logo" class='img__shake'></a>
-      <!--placeholder link-->
-      <a href="#" target="_blank"><img src="img/twitter-logo.svg" alt="twitter logo" class='img__shake'></a>
-      <!--placeholder link-->
-      <a href="https://www.linkedin.com/in/alexander-offner-953204208/" target="_blank"><img src="img/linkedin-logo.svg" alt="LinkedIn logo" class='img__shake'></a>
-      <!--placeholder link-->
-    </div>
-  </footer>
-  <!-- <script src="js/tota11y.min.js"></script> tool to check accessibility -->
-</body>
-
+    </footer>
+    <!-- <script src="js/tota11y.min.js"></script> tool to check accessibility -->
+  </body>
 </html>

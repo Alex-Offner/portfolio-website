@@ -23,7 +23,7 @@ body {
 
 body {
   background-color: var(--primary-background-color);
-  font-family: 'Merriweather', sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-weight: 400;
   font-size: var(--primary-font-size);
   color: var(--text-color);
@@ -61,7 +61,7 @@ th {
 }
 
 a {
-  font-family: 'RocknRoll One', sans-serif;
+  font-family: "RocknRoll One", sans-serif;
   transition: opacity 0.2s;
 }
 
@@ -194,6 +194,10 @@ button:focus,
   width: 75%;
 }
 
+.center {
+  text-align: center;
+}
+
 @keyframes color-change {
   0% {
     fill: #edc655;
@@ -267,7 +271,7 @@ button:focus,
 }
 
 /* end of fallback method */
-@supports (display:grid) {
+@supports (display: grid) {
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -313,7 +317,6 @@ button:focus,
     grid-template-columns: 1fr;
     margin-bottom: 10%;
   }
-
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
