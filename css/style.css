@@ -198,6 +198,10 @@ button:focus,
   text-align: center;
 }
 
+.work-pictures {
+  width: 100%;
+}
+
 @keyframes color-change {
   0% {
     fill: #edc655;
